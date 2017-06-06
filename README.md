@@ -4,11 +4,13 @@ Vector Support Model to analyze education data, obtained from the world bank, ba
 The 'data.csv' file is too big to upload, but as an example of how the program works:
 
 After compiling the program, in the Python REPL commandline enter
+
   D = Dataset()
   
 This will read in data from data.csv, definitions.csv, and codes.csv into a nested dictionary keyed by country then series code.
 
 To represent these datapoints as vectors, enter:
+
   A = Analysis(D)
   
 From here you can enter 
