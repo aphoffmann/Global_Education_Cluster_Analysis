@@ -16,6 +16,7 @@ To represent these datapoints as vectors, enter:
 From here you can enter A.KNN('3-letter country code') to find the  "K nearest neighbors" or countries with the most similar education data.
 
 For example
+
 Input: A.KNN('ITA')
 
 Output: [(0.22176569754073772, 'SMR', 'San Marino', 'Europe'), (0.32641356366071733, 'CZE', 'Czech Republic', 'Europe'), (0.35834790089150226, 'MKD', 'Macedonia, the former Yugoslav Republic of', 'Europe'), (0.3679861100113707, 'MNE', 'Montenegro', 'Europe'), (0.3884295503375777, 'PLW', 'Palau', 'Oceania')]
